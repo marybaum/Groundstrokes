@@ -1246,7 +1246,7 @@ class WP_Press_This {
 			$site_data['_embeds'] = $embeds;
 		}
 
-		// Add press-this-editor.css and remove theme's editor-style.css, if any.
+		// Add press-this-editor.css and remove theme's editor-style.scss, if any.
 		remove_editor_styles();
 
 		add_filter( 'mce_css', array( $this, 'add_editor_style' ) );

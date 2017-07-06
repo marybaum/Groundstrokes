@@ -260,7 +260,7 @@ class Genesis_Admin_Settings extends Genesis_Admin_Boxes {
 		$header_help =
 			'<h3>' . __( 'Header', 'genesis') . '</h3>' .
 			'<p>'  . __( 'The <strong>Dynamic text</strong> option will use the Site Title and Site Description from your site\'s settings in your header.', 'genesis' ) . '</p>' .
-			'<p>'  . __( 'The <strong>Image logo</strong> option will use a logo image file in the header instead of the site\'s title and description. This setting adds a .header-image class to your site, allowing you to specify the header image in your child theme\'s style.css. By default, the logo can be saved as logo.png and saved to the images folder of your child theme.', 'genesis' ) . '</p>';
+			'<p>'  . __( 'The <strong>Image logo</strong> option will use a logo image file in the header instead of the site\'s title and description. This setting adds a .header-image class to your site, allowing you to specify the header image in your child theme\'s style.scss. By default, the logo can be saved as logo.png and saved to the images folder of your child theme.', 'genesis' ) . '</p>';
 
 		$navigation_help =
 			'<h3>' . __( 'Navigation', 'genesis' ) . '</h3>' .
@@ -534,7 +534,7 @@ class Genesis_Admin_Settings extends Genesis_Admin_Boxes {
 	 * add_theme_support( 'genesis-style-selector', $color_styles );
 	 * ~~~
 	 *
-	 * When selected, the style will be added as a body class which can be used within style.css to target elements
+	 * When selected, the style will be added as a body class which can be used within style.scss to target elements
 	 * when using a specific style.
 	 *
 	 * ~~~

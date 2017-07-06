@@ -86,7 +86,7 @@ foreach ( $file_types as $type ) {
 			break;
 		case 'css':
 			$style_files = $theme->get_files( 'css' );
-			$allowed_files['style.css'] = $style_files['style.css'];
+			$allowed_files['style.scss'] = $style_files['style.scss'];
 			$allowed_files += $style_files;
 			break;
 		default:
@@ -96,8 +96,8 @@ foreach ( $file_types as $type ) {
 }
 
 if ( empty( $file ) ) {
-	$relative_file = 'style.css';
-	$file = $allowed_files['style.css'];
+	$relative_file = 'style.scss';
+	$file = $allowed_files['style.scss'];
 } else {
 	$relative_file = $file;
 	$file = $theme->get_stylesheet_directory() . '/' . $relative_file;

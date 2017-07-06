@@ -1114,7 +1114,7 @@ msgid ""
 "The <strong>Image logo</strong> option will use a logo image file in the "
 "header instead of the site's title and description. This setting adds a "
 ".header-image class to your site, allowing you to specify the header image "
-"in your child theme's style.css. By default, the logo can be saved as "
+"in your child theme's style.scss. By default, the logo can be saved as "
 "logo.png and saved to the images folder of your child theme."
 msgstr ""
 
