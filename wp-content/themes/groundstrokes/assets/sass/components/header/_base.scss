@@ -1,0 +1,32 @@
+//
+// Site header base styles.
+//======================================//
+
+@media all and (min-width: 0) {
+
+  .site-header {
+    background: $siteHeader__bgd;
+
+    .wrap {
+      display: flex;
+      flex-flow: column;
+      align-items: stretch;
+      padding: 1rem;
+    }
+    .search-form {
+      flex: 1 0 100%;
+    }
+
+  }
+}
+@media all and (min-width: 64rem) {
+  .site-header  {
+    .wrap {
+      flex-flow: row;
+      align-items: flex-end;
+    }
+  }
+  .search-form {
+    flex: 0 1 10%;
+  }
+}

@@ -1,0 +1,35 @@
+/* # Footer Widgets
+---------------------------------------------------------------------------------------------------- */
+	@media all and (min-width: 0)   {
+
+	.footer-widgets {
+	    background: none;
+	    display: flex;
+		flex-flow: column;
+		justify-content: space-between;
+		align-items: stretch;
+	    font-size: $siteFooter__size;
+	    padding: 1rem 0;
+
+		&-1,
+		&-2,
+		&-3 {
+			flex: 1 0 auto;
+		}
+	}
+}
+
+@media all and (min-width: 36rem) {
+
+	.footer-widgets {
+		flex-flow: row;
+		align-items: flex-start;
+
+		&-1,
+		&-2,
+		&-3 {
+			flex: 0 1 auto;
+		}
+	}
+}
+

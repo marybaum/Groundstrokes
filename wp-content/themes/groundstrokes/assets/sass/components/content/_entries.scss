@@ -1,0 +1,34 @@
+/* ## Entries
+--------------------------------------------- */
+
+.entry {
+  background-color: $body__bgd;
+  margin: 0 0 1rem;
+  padding: 2rem;
+}
+
+.entry-content {
+  ol,
+  ul {
+    margin-bottom: 28px;
+    margin-left: 40px;
+  }
+
+  ol > li {
+    list-style-type: decimal;
+  }
+
+  ul > li {
+    list-style-type: none;
+  }
+
+  ol ol,
+  ul ul {
+    margin-bottom: 0;
+  }
+
+  code {
+    background-color: $body__bgd;
+    color: $body__p;
+  }
+}

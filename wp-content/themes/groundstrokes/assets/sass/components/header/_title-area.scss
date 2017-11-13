@@ -1,0 +1,45 @@
+/* ## Title Area
+--------------------------------------------- */
+@media all and (min-width: 0) {
+
+  .site-header .title-area {
+      display: flex;
+      flex-flow:column;
+      align-items: stretch;
+      flex: 0 1 auto;
+      padding: 0;
+    }
+
+    .site-title {
+      background: url(../assets/img/#) center top no-repeat;
+      background-size:contain;
+      flex:1 0 100%;
+
+      a,
+      a:focus,
+      a:hover {
+        text-decoration: none;
+      }
+    }
+
+    .site-description {
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.5;
+      flex:1 0 100%;
+    }
+  }
+
+@media all and (min-width: 64rem) {
+
+  .title-area {
+    flex: 0 1 30%;
+  }
+
+}
+
+@media all and (min-width: 120rem)  {
+  .title-area {
+    flex: 0 1 40%;
+  }
+}

@@ -1,0 +1,55 @@
+//
+// Search form
+//=====================================================
+
+	@media all and (min-width: 0) {
+
+	.search-form {
+
+		overflow: hidden;
+
+		.entry-content &,
+		.site-header & {
+			flex: 1 0 100%;
+			display: flex;
+			flex-flow: column;
+			justify-content: space-around;
+			align-items: flex-start;
+		}
+
+	}
+
+	.post-password-form,
+	.search-form {
+		input [type="submit"] {
+			margin-top: 10px;
+	}
+}
+
+	.genesis-nav-menu .search,
+	.widget_search {
+		input[type="submit"] {
+			border: 0;
+			clip: rect(0, 0, 0, 0);
+			height: 1px;
+			margin: -1px;
+			padding: 0;
+			position: absolute;
+			width: 1px;
+		}
+	}
+}
+
+@media all and (min-width: 64em) {
+	.entry-content,
+	.site-header {
+		.search-form {
+			flex: 0 1 30%;
+			display: flex;
+			justify-content: space-around;
+			align-items: flex-end;
+		}
+	}
+}
+
+
